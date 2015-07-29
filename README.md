@@ -1,7 +1,4 @@
----
-  tags: tutorial, intermediate, Table-Views
-  languages: objc
----
+
 
 Jukebox-TableViews
 =========
