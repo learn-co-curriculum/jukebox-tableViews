@@ -1,7 +1,11 @@
+<<<<<<< HEAD
 ---
   tags: tutorial, intermediate, Table-Views
   languages: objc
 ---
+=======
+
+>>>>>>> master
 
 Jukebox-TableViews
 =========
