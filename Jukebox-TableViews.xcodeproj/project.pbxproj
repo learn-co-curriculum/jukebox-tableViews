@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		319F31CA19EF1B7D002F371E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 319F31C919EF1B7D002F371E /* main.m */; };
-		319F31CD19EF1B7D002F371E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 319F31CC19EF1B7D002F371E /* AppDelegate.m */; };
+		319F31CD19EF1B7D002F371E /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 319F31CC19EF1B7D002F371E /* FISAppDelegate.m */; };
 		319F31D519EF1B7D002F371E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 319F31D419EF1B7D002F371E /* Images.xcassets */; };
 		319F31D819EF1B7D002F371E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 319F31D619EF1B7D002F371E /* LaunchScreen.xib */; };
 		319F31EE19EF1BA5002F371E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 319F31ED19EF1BA5002F371E /* Main.storyboard */; };
@@ -17,14 +17,15 @@
 		319F31F719EF1BD1002F371E /* FISPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = 319F31F519EF1BD1002F371E /* FISPlaylist.m */; };
 		319F31FC19EF1BEB002F371E /* stop_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 319F31FA19EF1BEB002F371E /* stop_icon.png */; };
 		319F31FD19EF1BEB002F371E /* play_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 319F31FB19EF1BEB002F371E /* play_icon.png */; };
-		319F320519EF1BFC002F371E /* how_we_do.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 319F31FE19EF1BFC002F371E /* how_we_do.mp3 */; };
 		319F320619EF1BFC002F371E /* hold_on_be_strong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 319F31FF19EF1BFC002F371E /* hold_on_be_strong.mp3 */; };
 		319F320719EF1BFC002F371E /* higher_love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 319F320019EF1BFC002F371E /* higher_love.mp3 */; };
 		319F320819EF1BFC002F371E /* mo_money_mo_problems.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 319F320119EF1BFC002F371E /* mo_money_mo_problems.mp3 */; };
 		319F320919EF1BFC002F371E /* old_thing_back.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 319F320219EF1BFC002F371E /* old_thing_back.mp3 */; };
 		319F320A19EF1BFC002F371E /* gangsta_bleeding_love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 319F320319EF1BFC002F371E /* gangsta_bleeding_love.mp3 */; };
 		319F320B19EF1BFC002F371E /* bailando.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 319F320419EF1BFC002F371E /* bailando.mp3 */; };
-		319F320E19EF1C0B002F371E /* JukeboxViewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 319F320D19EF1C0B002F371E /* JukeboxViewsTests.m */; };
+		4D5549251BCBF822001E3D77 /* FISPlaylistSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5549231BCBF822001E3D77 /* FISPlaylistSpec.m */; settings = {ASSET_TAGS = (); }; };
+		4D5549261BCBF822001E3D77 /* FISSongSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5549241BCBF822001E3D77 /* FISSongSpec.m */; settings = {ASSET_TAGS = (); }; };
+		4D5549281BCBFA16001E3D77 /* OldLab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D5549271BCBFA16001E3D77 /* OldLab.storyboard */; settings = {ASSET_TAGS = (); }; };
 		6024D6B6782413A757103E1A /* libPods-Jukebox-TableViewsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 808EBA1844301FA18FAB4CF2 /* libPods-Jukebox-TableViewsTests.a */; };
 /* End PBXBuildFile section */
 
@@ -42,8 +43,8 @@
 		319F31C419EF1B7D002F371E /* Jukebox-TableViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jukebox-TableViews.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		319F31C819EF1B7D002F371E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		319F31C919EF1B7D002F371E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		319F31CB19EF1B7D002F371E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		319F31CC19EF1B7D002F371E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		319F31CB19EF1B7D002F371E /* FISAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FISAppDelegate.h; sourceTree = "<group>"; };
+		319F31CC19EF1B7D002F371E /* FISAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FISAppDelegate.m; sourceTree = "<group>"; };
 		319F31D419EF1B7D002F371E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		319F31D719EF1B7D002F371E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		319F31DD19EF1B7D002F371E /* Jukebox-TableViewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jukebox-TableViewsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,14 +58,15 @@
 		319F31F519EF1BD1002F371E /* FISPlaylist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISPlaylist.m; sourceTree = "<group>"; };
 		319F31FA19EF1BEB002F371E /* stop_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop_icon.png; sourceTree = "<group>"; };
 		319F31FB19EF1BEB002F371E /* play_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_icon.png; sourceTree = "<group>"; };
-		319F31FE19EF1BFC002F371E /* how_we_do.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = how_we_do.mp3; sourceTree = "<group>"; };
 		319F31FF19EF1BFC002F371E /* hold_on_be_strong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hold_on_be_strong.mp3; sourceTree = "<group>"; };
 		319F320019EF1BFC002F371E /* higher_love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = higher_love.mp3; sourceTree = "<group>"; };
 		319F320119EF1BFC002F371E /* mo_money_mo_problems.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mo_money_mo_problems.mp3; sourceTree = "<group>"; };
 		319F320219EF1BFC002F371E /* old_thing_back.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = old_thing_back.mp3; sourceTree = "<group>"; };
 		319F320319EF1BFC002F371E /* gangsta_bleeding_love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gangsta_bleeding_love.mp3; sourceTree = "<group>"; };
 		319F320419EF1BFC002F371E /* bailando.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bailando.mp3; sourceTree = "<group>"; };
-		319F320D19EF1C0B002F371E /* JukeboxViewsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JukeboxViewsTests.m; sourceTree = "<group>"; };
+		4D5549231BCBF822001E3D77 /* FISPlaylistSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISPlaylistSpec.m; sourceTree = "<group>"; };
+		4D5549241BCBF822001E3D77 /* FISSongSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISSongSpec.m; sourceTree = "<group>"; };
+		4D5549271BCBFA16001E3D77 /* OldLab.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OldLab.storyboard; sourceTree = "<group>"; };
 		808EBA1844301FA18FAB4CF2 /* libPods-Jukebox-TableViewsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Jukebox-TableViewsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0CBB249B7415A2CE2149853 /* Pods-Jukebox-TableViewsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jukebox-TableViewsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jukebox-TableViewsTests/Pods-Jukebox-TableViewsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DF54BBD20AAA95B0518036CA /* Pods-Jukebox-TableViewsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jukebox-TableViewsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jukebox-TableViewsTests/Pods-Jukebox-TableViewsTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -119,14 +121,13 @@
 		319F31C619EF1B7D002F371E /* Jukebox-TableViews */ = {
 			isa = PBXGroup;
 			children = (
-				319F31CB19EF1B7D002F371E /* AppDelegate.h */,
-				319F31CC19EF1B7D002F371E /* AppDelegate.m */,
-				3139505619EF1FB300655513 /* New VCs */,
-				319F31F919EF1BDE002F371E /* Old VCs */,
-				319F31F819EF1BD4002F371E /* Model */,
+				319F31CB19EF1B7D002F371E /* FISAppDelegate.h */,
+				319F31CC19EF1B7D002F371E /* FISAppDelegate.m */,
 				319F31ED19EF1BA5002F371E /* Main.storyboard */,
-				319F31D419EF1B7D002F371E /* Images.xcassets */,
-				319F31D619EF1B7D002F371E /* LaunchScreen.xib */,
+				3139505619EF1FB300655513 /* New VCs */,
+				319F31F819EF1BD4002F371E /* Model */,
+				4D5549271BCBFA16001E3D77 /* OldLab.storyboard */,
+				319F31F919EF1BDE002F371E /* OldLab VC */,
 				319F31C719EF1B7D002F371E /* Supporting Files */,
 			);
 			path = "Jukebox-TableViews";
@@ -135,8 +136,9 @@
 		319F31C719EF1B7D002F371E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				319F31FA19EF1BEB002F371E /* stop_icon.png */,
-				319F31FB19EF1BEB002F371E /* play_icon.png */,
+				319F31D419EF1B7D002F371E /* Images.xcassets */,
+				319F31D619EF1B7D002F371E /* LaunchScreen.xib */,
+				4D5549291BCBFACB001E3D77 /* Icons */,
 				319F31C819EF1B7D002F371E /* Info.plist */,
 				319F31C919EF1B7D002F371E /* main.m */,
 				319F320C19EF1C01002F371E /* Songs */,
@@ -147,7 +149,8 @@
 		319F31E019EF1B7D002F371E /* Jukebox-TableViewsTests */ = {
 			isa = PBXGroup;
 			children = (
-				319F320D19EF1C0B002F371E /* JukeboxViewsTests.m */,
+				4D5549231BCBF822001E3D77 /* FISPlaylistSpec.m */,
+				4D5549241BCBF822001E3D77 /* FISSongSpec.m */,
 				319F31E119EF1B7D002F371E /* Supporting Files */,
 			);
 			path = "Jukebox-TableViewsTests";
@@ -172,19 +175,18 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
-		319F31F919EF1BDE002F371E /* Old VCs */ = {
+		319F31F919EF1BDE002F371E /* OldLab VC */ = {
 			isa = PBXGroup;
 			children = (
 				319F31EF19EF1BC1002F371E /* FISJukeboxViewController.h */,
 				319F31F019EF1BC1002F371E /* FISJukeboxViewController.m */,
 			);
-			name = "Old VCs";
+			name = "OldLab VC";
 			sourceTree = "<group>";
 		};
 		319F320C19EF1C01002F371E /* Songs */ = {
 			isa = PBXGroup;
 			children = (
-				319F31FE19EF1BFC002F371E /* how_we_do.mp3 */,
 				319F31FF19EF1BFC002F371E /* hold_on_be_strong.mp3 */,
 				319F320019EF1BFC002F371E /* higher_love.mp3 */,
 				319F320119EF1BFC002F371E /* mo_money_mo_problems.mp3 */,
@@ -193,6 +195,15 @@
 				319F320419EF1BFC002F371E /* bailando.mp3 */,
 			);
 			name = Songs;
+			sourceTree = "<group>";
+		};
+		4D5549291BCBFACB001E3D77 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				319F31FA19EF1BEB002F371E /* stop_icon.png */,
+				319F31FB19EF1BEB002F371E /* play_icon.png */,
+			);
+			name = Icons;
 			sourceTree = "<group>";
 		};
 		59D955D9BAA31140F0CD5190 /* Frameworks */ = {
@@ -304,7 +315,7 @@
 				319F320919EF1BFC002F371E /* old_thing_back.mp3 in Resources */,
 				319F320B19EF1BFC002F371E /* bailando.mp3 in Resources */,
 				319F31FC19EF1BEB002F371E /* stop_icon.png in Resources */,
-				319F320519EF1BFC002F371E /* how_we_do.mp3 in Resources */,
+				4D5549281BCBFA16001E3D77 /* OldLab.storyboard in Resources */,
 				319F31EE19EF1BA5002F371E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,7 +367,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				319F31CD19EF1B7D002F371E /* AppDelegate.m in Sources */,
+				319F31CD19EF1B7D002F371E /* FISAppDelegate.m in Sources */,
 				319F31F619EF1BD1002F371E /* FISSong.m in Sources */,
 				319F31F719EF1BD1002F371E /* FISPlaylist.m in Sources */,
 				319F31F119EF1BC1002F371E /* FISJukeboxViewController.m in Sources */,
@@ -368,7 +379,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				319F320E19EF1C0B002F371E /* JukeboxViewsTests.m in Sources */,
+				4D5549261BCBF822001E3D77 /* FISSongSpec.m in Sources */,
+				4D5549251BCBF822001E3D77 /* FISPlaylistSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
