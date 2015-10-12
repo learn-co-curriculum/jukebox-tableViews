@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Zz3-f5-Cni">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Zz3-f5-Cni">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
@@ -38,7 +38,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="k9u-wF-Cl3" kind="push" id="VtY-f7-gEg"/>
+                                    <segue destination="k9u-wF-Cl3" kind="show" id="VtY-f7-gEg"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -51,12 +51,12 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c4M-mj-7qf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="552" y="-21"/>
+            <point key="canvasLocation" x="1035" y="-22.183098591549296"/>
         </scene>
-        <!--Song Table View Controller-->
+        <!--Jukebox Table View Controller-->
         <scene sceneID="XQL-lz-pgx">
             <objects>
-                <viewController id="k9u-wF-Cl3" customClass="FISSongTableViewController" sceneMemberID="viewController">
+                <viewController id="k9u-wF-Cl3" customClass="FISJukeboxTableViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="l0I-cL-9OW"/>
                         <viewControllerLayoutGuide type="bottom" id="RpB-lJ-u5Y"/>
@@ -103,9 +103,6 @@
                                         <state key="normal" backgroundImage="stop_icon.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
-                                        <connections>
-                                            <action selector="stopButtonTapped:" destination="k9u-wF-Cl3" eventType="touchUpInside" id="lHS-hf-qVc"/>
-                                        </connections>
                                     </button>
                                     <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UqX-xd-ugE">
                                         <rect key="frame" x="61" y="36" width="244" height="2"/>
@@ -129,25 +126,19 @@
                                 <segment title="Album"/>
                             </segments>
                             <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                            <connections>
-                                <action selector="sortControlValueChanged:" destination="k9u-wF-Cl3" eventType="valueChanged" id="w9T-gZ-ohK"/>
-                            </connections>
                         </segmentedControl>
                     </navigationItem>
-                    <connections>
-                        <outlet property="songProgressView" destination="UqX-xd-ugE" id="aMl-BB-aXc"/>
-                        <outlet property="tableView" destination="Tbl-bF-g1y" id="IQe-TQ-UPv"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vX3-MG-Jel" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="945" y="-21"/>
+            <point key="canvasLocation" x="1473" y="-23"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="7UR-gl-lg7">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Zz3-f5-Cni" sceneMemberID="viewController">
                     <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="0CJ-x9-gAK">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -160,7 +151,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hIT-Ri-12n" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="26" y="-21"/>
+            <point key="canvasLocation" x="571" y="-23"/>
         </scene>
     </scenes>
     <resources>
