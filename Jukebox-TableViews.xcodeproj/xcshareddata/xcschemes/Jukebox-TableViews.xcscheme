@@ -93,6 +93,24 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <PostActions>
+         <ExecutionAction
+            ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+            <ActionContent
+               title = "Run Script"
+               scriptText = "LOG_PATH=`echo &quot;${BUILD_DIR}&quot; | sed &quot;s/Build\/Products/Logs\/Test/&quot;`&#10;&quot;${SRCROOT}/test_runner.sh&quot; &quot;$LOG_PATH&quot; &quot;${SRCROOT}&quot;">
+               <EnvironmentBuildable>
+                  <BuildableReference
+                     BuildableIdentifier = "primary"
+                     BlueprintIdentifier = "319F31C319EF1B7D002F371E"
+                     BuildableName = "Jukebox-TableViews.app"
+                     BlueprintName = "Jukebox-TableViews"
+                     ReferencedContainer = "container:Jukebox-TableViews.xcodeproj">
+                  </BuildableReference>
+               </EnvironmentBuildable>
+            </ActionContent>
+         </ExecutionAction>
+      </PostActions>
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
